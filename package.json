@@ -9,7 +9,7 @@
   ],
   "license": "ISC",
   "author": "chin0102",
-  "private": true,
+  "private": false,
   "files": [
     "lib",
     "src",
