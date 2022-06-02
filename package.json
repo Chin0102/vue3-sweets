@@ -1,0 +1,39 @@
+{
+  "name": "vue3-sweets",
+  "main": "src/index.js",
+  "version": "0.0.1",
+  "description": "vue",
+  "keywords": [
+    "vue",
+    "web"
+  ],
+  "license": "ISC",
+  "author": "chin0102",
+  "private": true,
+  "files": [
+    "lib",
+    "src",
+    "package.json"
+  ],
+  "scripts": {
+    "lib": "vue-cli-service build --target lib --formats umd-min --filename index --dest lib src/index.js",
+    "pub": "npm publish"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "qs": "^6.10.3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0"
+  },
+  "browserslist": [
+    "last 2 years"
+  ]
+}
